@@ -1,0 +1,17 @@
+Generic Jabber support for MeeGo Harmattan, aka "that thing that runs on the
+Nokia N9 and N950".
+
+At present, this code just adds a couple of screens to the Accounts application,
+and doesn't actually connect just yet.  I'm still working on it.
+
+There exists an error in Harmattan's theme server that necessitates a reboot to
+get the Jabber icon to display correctly:
+
+	(from #harmattan @ irc.freenode.net)
+	<djszapi> The problem seems to be that icon defined in
+	.provider file is loaded through themeserver. Themeserver reads new
+	icons only when it is started(bootup). .Desktop file icons have same
+	problem but in .desktop files it is possible to define icons with full
+	path. If full path is used then icon is loaded directly from filesystem
+	not via themeserver. This full path trick unfortunately doesn't work
+	with accounts.
