@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE provider>
+<provider version="1.0" id="jabber">
+    <name>Jabber</name>
+    <icon>icon-m-service-jabber</icon>
+    <translations>jabber</translations>
+    <description>Set up Jabber account</description>
+</provider>
