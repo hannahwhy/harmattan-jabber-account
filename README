@@ -4,7 +4,7 @@ Nokia N9 and N950".
 At present, this code just adds a couple of screens to the Accounts application,
 and doesn't actually connect just yet.  I'm still working on it.
 
-There exists an error in Harmattan's theme server that necessitates a reboot to
+There exists an issue in Harmattan's theme server that necessitates a reboot to
 get the Jabber icon to display correctly:
 
 	(from #harmattan @ irc.freenode.net)
