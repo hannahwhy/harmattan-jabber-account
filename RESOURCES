@@ -1,0 +1,33 @@
+Introduction
+============
+
+Harmattan's accounts framework has the unfortunate property of being sparsely
+documented.  Worse, the documentation divide is pretty much at the open/closed
+source line: the Accounts-Qt documentation (which is open source) is present,
+but all implementations shipped with Harmattan (which are proprietary) are
+totally undocumented.
+
+To make matters worse, Accounts-Qt doesn't have any concrete examples of account
+plugins.
+
+I'll collect documentation and examples of account integration code in this
+file.  As time goes on I hope to be able to assemble a complete enough picture
+to implement an XMPP account plugin with minimal code.
+
+talk.maemo.org app
+==================
+
+http://talk.maemo.org/showthread.php?t=79984
+https://gitorious.org/forum-qml/forum-tmo/trees/master
+
+This is an application to read and post to talk.maemo.org.  It includes an
+example of an account provider.
+
+Accounts & SSO
+==============
+
+http://gitorious.org/accounts-sso
+http://harmattan-dev.nokia.com/docs/library/html/accounts-qt/main.html
+
+Nokia's official documentation for Accounts-Qt, as well as source code related
+to Meego's account and single-sign-on infrastructure.
