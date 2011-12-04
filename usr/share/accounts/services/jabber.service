@@ -14,19 +14,13 @@
       <setting name="icon-inverted">icon-s-service-jabber</setting>
     </group>
     <group name="parameters">
-      <setting name="server">talk.google.com</setting>
-      <setting name="fallback-conference-server">conference.jabber.org</setting>
       <setting name="require-encryption" type="b">1</setting>
-      <setting name="extra-certificate-identities">talk.google.com</setting>
     </group>
   </template>
   <type-data>
     <service-presences-list>
       <i18n-domain>rtcom-libpresence</i18n-domain>
       <presence id="available" type="Available">
-        <!-- "id" is the presence name to be passed to mission-control, and "type" is one of these,
-        http://telepathy.freedesktop.org/spec/org.freedesktop.Telepathy.Connection.Interface.SimplePresence.html#org.freedesktop.Telepathy.Connection.Interface.SimplePresence.Connection_Presence_Type
--->
         <presence-icon size="small">icon-s-common-presence-online</presence-icon>
         <presence-icon size="medium">icon-m-common-presence-online</presence-icon>
         <i18n-name>qtn_comm_presence_online</i18n-name>
