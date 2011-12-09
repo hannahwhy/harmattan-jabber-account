@@ -31,3 +31,13 @@ http://harmattan-dev.nokia.com/docs/library/html/accounts-qt/main.html
 
 Nokia's official documentation for Accounts-Qt, as well as source code related
 to Meego's account and single-sign-on infrastructure.
+
+web2sms
+=======
+
+https://gitorious.org/web2sms/web2sms/trees/master
+
+An interface to web2sms for Harmattan.  Contains an account setup screen,
+account provider, and other bits.  Probably more than an XMPP plugin needs,
+but still the most complete open-source consumer of Harmattan's accounts API 
+that I've found.
